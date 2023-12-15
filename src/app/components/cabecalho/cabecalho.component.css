@@ -12,6 +12,7 @@ header span{
     font-weight: 900;
     color: white;
     letter-spacing: 2.5px;
+    margin-right: 25%;
 }
 header nav{
     
@@ -22,6 +23,9 @@ header nav{
 header nav .bi{
     color: white;
 }
-header .bi{
-    color: white;
+header nav .bi:hover{
+    color: black;
+}
+header nav .bi-search{
+    margin-left: 55px;
 }

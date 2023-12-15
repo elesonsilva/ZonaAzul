@@ -1,10 +1,10 @@
 
-<section>
+<section [ngClass]="back">
     <h1>Bem vindo ao Projeto ZonaAzul Rio de Janeiro</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, reprehenderit?</p>
     <div class="btn-group">
-        <a href="">inicial</a>
-        <a href="">copacabana</a>
-        <a href="">pão de açucar</a>
+        <button>inicial</button>
+        <button (click)="abrirCopacabana()">copacabana</button>
+        <button>pão de açucar</button>
     </div>
 </section>
